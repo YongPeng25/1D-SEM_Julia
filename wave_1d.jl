@@ -1,6 +1,7 @@
 # 1D wave propagation modeling with Spectral Element Method (SEM)
 # This code can be used for learning the basic conception of SEM
-# @author: Peng Yong, China  (yongpeng2013@gmail.com)
+# Author: Peng Yong, China University of Petroleum (East China) 
+# E-mail: yongpeng2013@gmail.com
 # Date: 20/08/2019     
 include("define_derivative_matrix.jl")
 include("source.jl")
