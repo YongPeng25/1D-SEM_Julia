@@ -49,7 +49,7 @@ function define_derivative_matrix(N)
     end
 # calculate derivatives of the Lagrange polynomials
 # and precalculate some products in double precision
-# hprime(i,j) = h'_i(xigll_j) by definition of the derivative matrix
+# hprime[j,i] = h'_i(xigll_j) by definition of the derivative matrix
   hprime = zeros(N,N);
   for i=1:N
     for j=1:N
